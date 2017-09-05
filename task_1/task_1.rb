@@ -7,4 +7,4 @@ CSV.foreach(csv_file) do |row|
 	csv_hash[row[1]] = (csv_hash[row[1]]).to_f + row[2].to_f
 end
 
-printf("%s,%.2f\n", csv_hash.key(csv_hash.values.max), csv_hash.values.max)
+printf("Video: %d, watched: %.2f%\n", csv_hash.key(csv_hash.values.max).to_i, csv_hash.values.max)
