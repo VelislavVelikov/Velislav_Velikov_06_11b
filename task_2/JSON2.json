@@ -1,0 +1,20 @@
+{	
+	"animal":{
+ 			"name":"Kangaroo", 
+ 			"age":5, 
+ 			"city":"Australia"
+ 			},
+	"person":
+			{
+			"name":"John", 
+ 			"age":31, 
+ 			"city":"New York"
+ 			}, 
+ 	"car":{
+ 			"name":"Nissan", 
+ 			"age":84, 
+ 			"city":"Japan"
+ 			},
+ 
+ 	"list": "things"
+}
